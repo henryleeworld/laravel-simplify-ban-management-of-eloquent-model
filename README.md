@@ -1,4 +1,4 @@
-# Laravel 7 簡化 Eloquent 模型封鎖管理
+# Laravel 8 簡化 Eloquent 模型封鎖管理
 
 引入 cybercog 的 laravel-ban 套件來擴增簡化 Eloquent 模型封鎖管理，封鎖到期前，該 Eloquent 模型無法使用服務。
 
