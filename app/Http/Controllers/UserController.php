@@ -15,7 +15,7 @@ class UserController extends Controller
         }
         if(empty(User::find($userId))) {
             $user = User::withBanned()->find($userId);
-            echo '使用者姓名：' . $user->name . PHP_EOL;
+            echo __('User name:') . $user->name . PHP_EOL;
         }
     } 
 }
