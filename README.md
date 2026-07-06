@@ -1,4 +1,4 @@
-# Laravel 11 簡化 Eloquent 模型封鎖管理
+# Laravel 12 簡化 Eloquent 模型封鎖管理
 
 引入 cybercog 的 laravel-ban 套件來擴增簡化 Eloquent 模型封鎖管理，封鎖到期前，該 Eloquent 模型無法使用服務。
 
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/eI1patd.png)
+![](https://i.imgur.com/OCp1hqv.png)
 > 該使用者封鎖期間資料搜尋會找不到，可以從被封鎖的 Eloquent 模型驗證是否封鎖中
